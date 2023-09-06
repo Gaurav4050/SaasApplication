@@ -1,0 +1,13 @@
+.landing-image{
+    height: 300px;
+
+}
+
+@media screen and (max-width: 620px) {
+    .landing{
+       flex-direction: column;
+    }
+    .landing-image{
+        height: 250px;
+    }
+  }
